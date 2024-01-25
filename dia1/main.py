@@ -44,5 +44,39 @@ while booleanito == True:#while condicion_a_cumplir :
         print("Soy campus")
     else:
         print("No soy campus")
+ # ---- Funciones ----
+  # ---- Funciones sin y sin ----
+    def saludo():
+      print("Hola,como estas")
+   
+    saludo()
+# ---- Funciones sin y con ----
+    def mt():
+      numero1=20
+      numero2=15
+      return numero1*numero2
+   
+    total=mt()
+    print("el resultado es:",total)
+# ---- Funciones con y con ----
+    def restar(numero1,numero2):
+        return numero1-numero2
+    total=restar(20,10)
+    print("el total de la resta es:",total)
+
+# ---- Funciones con y sin ----
+    def restar2(numero1,numero2):
+        print("Total:",numero1-numero2)
+
+    restar2(60,31)
+
+# ---- Arreglos ----
+from array import array
+numeros = array("i",[5,6,7,8])
+
+print(numeros[0])
+print(numeros[1])
+print(numeros[2])
+print(numeros[3])
 
 ## Desarrollado por: ANDRES DAVID PEREZ SANTIAGO - 1065593359
