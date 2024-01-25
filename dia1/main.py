@@ -44,4 +44,5 @@ while booleanito == True:#while condicion_a_cumplir :
         print("Soy campus")
     else:
         print("No soy campus")
+        
 ## Desarrollado por: ANDRES DAVID PEREZ SANTIAGO - 1065593359
