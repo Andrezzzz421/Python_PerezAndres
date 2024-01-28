@@ -8,14 +8,8 @@ def main():
     print("La secuencia de Fibonacci es aquella en la cual se suma los dos numeros anteriores para obtener el siguiente, empezando desde 0 y 1.")
 
     while True:
-        try:
-            n = int(input("Ingrese el valor de 'n' para generar la secuencia de Fibonacci: "))
-         
-
-            if n == 0:
-                print("¡Hasta luego! Gracias por usar el Generador de Fibonacci.")
-                break
-
+            n = int(input("Ingrese el valor de 'n' para generar su secuencia de Fibonacci: "))
+            
             if n < 0:
                 print("Por favor, ingrese un valor no negativo.")
                 continue
@@ -27,7 +21,6 @@ def main():
             if continuar != 'sí' and continuar != 'si':
                 print("¡Hasta luego! Gracias por usar el generador de fibonacci.")
                 break
-        except ValueError:
             print("Por favor, ingrese un valor entero.")
 
 if __name__ == "__main__":
