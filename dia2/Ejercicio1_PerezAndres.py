@@ -18,8 +18,8 @@ def main():
             result = fibonacci(n)
             print(f"Secuencia de Fibonacci hasta el termino {n}: {result}")
 
-            continuar = input("¿Desea continuar? (Sí/No): ").lower()
-            if continuar != 'sí' and continuar != 'si':
+            continuar = input("¿Desea continuar? (Sí/No): ")
+            if continuar != 'si':
                 print("¡Hasta luego! Gracias por usar el generador de fibonacci.")
                 break
         except ValueError:
