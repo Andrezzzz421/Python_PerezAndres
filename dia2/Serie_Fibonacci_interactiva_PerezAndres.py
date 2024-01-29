@@ -4,7 +4,7 @@ def fibonacci(n):
         fibonacci_seq.append(fibonacci_seq[-1] + fibonacci_seq[-2])
     return fibonacci_seq
 
-def main():
+def secuencia():
     print("La secuencia de Fibonacci es aquella en la cual se suma los dos numeros anteriores para obtener el siguiente, empezando desde 0 y 1.")
 
     while True:
@@ -26,4 +26,4 @@ def main():
             print("Por favor, ingrese un valor entero.")
 
 
-main()
+secuencia()
