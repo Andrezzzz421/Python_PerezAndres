@@ -12,9 +12,9 @@ def juego_alzar():
                 print(f"FELICIDADES,Has acertado el numero {numero_aleatorio}")
                 break
             elif numero_usuario < numero_aleatorio:
-                print(f"El numero ingresado es menor que el numero escojido al azar ")
+                print("El numero ingresado es menor que el numero escojido al azar")
             elif numero_usuario > numero_aleatorio:
-                print(f"El numero ingresado es mayor que el numero escojido al azar")
+                print("El numero ingresado es mayor que el numero escojido al azar")
             intentos+=1
         except ValueError:
             print("Por favor, ingrese un valor entero.")
