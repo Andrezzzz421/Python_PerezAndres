@@ -25,5 +25,5 @@ def main():
         except ValueError:
             print("Por favor, ingrese un valor entero.")
 
-if __name__ == "__main__":
-    main()
+
+main()
