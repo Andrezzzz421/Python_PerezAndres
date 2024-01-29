@@ -18,12 +18,11 @@ def secuencia():
             result = fibonacci(n)
             print(f"Secuencia de Fibonacci hasta el termino {n}: {result}")
 
-            continuar = input("¿Desea continuar? (si/no): ")
+            continuar = input("¿Desea continuar? (si/no):")
             if continuar != 'si':
                 print("¡Hasta luego! Gracias por usar el generador de fibonacci.")
                 break
         except ValueError:
             print("Por favor, ingrese un valor entero.")
-
 
 secuencia()
