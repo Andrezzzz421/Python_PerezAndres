@@ -21,6 +21,5 @@ def juego_alzar():
     if intentos == 10:
         print(f"Lo siento pero se le acabarons sus intentos. el numero secreto era {numero_aleatorio}")
 
-if __name__ == "__main__":
-    juego_alzar()
+juego_alzar()
     
