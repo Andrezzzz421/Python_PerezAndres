@@ -8,11 +8,12 @@ productos={"Papa":2800,
            }
 print(productos)
 print("Bienvenido usuario ingrese el producto que desea seleccionar")
-producto_seleccionado=str(input(""))
+producto_seleccionado=(input(""))
 print("Ingrese la cantidad de su producto seleccionado")
 cantidad_del_producto=int(input(""))
 if producto_seleccionado in productos:
-    total= producto_seleccionado[productos]*cantidad_del_producto
+    precio_unitario = productos[producto_seleccionado]
+    total= precio_unitario*cantidad_del_producto
     print("el total de su compra es:",total)
 else:
     print("EL producto no se encuentra en la lista")
