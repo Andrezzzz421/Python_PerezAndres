@@ -21,6 +21,6 @@ total_Radios= radio_1 + radio_2
 colision=distancia_centros <= total_Radios
 
 if colision:
-    print("las Bolas colisionaron")
+    print("True")
 else:
-    print("las Bolas no colisionaron")
+    print("false")
