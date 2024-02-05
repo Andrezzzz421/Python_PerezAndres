@@ -1,0 +1,2 @@
+import copyeje1
+copyeje1.C_pairs
