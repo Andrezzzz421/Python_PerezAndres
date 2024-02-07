@@ -1,0 +1,2 @@
+import copyeje6_1
+copyeje6_1.ejemplo
