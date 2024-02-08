@@ -13,3 +13,4 @@ for comercial in variable['ventas'],['comerciales']:
 print("Comerciales con comisión entre 0.05 y 0.11:")
 for nombre_apellidos in comerciales_con_comision:
     print(nombre_apellidos)
+
