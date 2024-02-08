@@ -7,7 +7,7 @@ with open("data.json", "r") as f:
 max_comision = 0
 
 for comercial in comerciales:
-    comision = comerciales["comision"]
+    comision = comercial["comision"]
     if comision > max_comision:
         max_comision = comision
 
